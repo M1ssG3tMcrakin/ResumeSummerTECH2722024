@@ -6,8 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"><!-- This sets up file for mobile use -->
         <meta name="description" content="Ariel Edgell is a professional game developer, script writer, animator, cartoonist & musician with dreams of having her own media company, composing famous, breathtaking music for all ages and acting out marvelous roles."><!-- This is used by search engines to describe the page -->
         <link rel="stylesheet" href="css/normalize.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/resume.css">
 		<style>
-			* {outline:1px solid red;}
 		/* box-sizing */
 			html {
 			box-sizing:border-box;	
@@ -16,64 +19,105 @@
 				box-sizing: inherit;
 			}
 			/* STRUCTURE */
+			html {background-color:#ccc;}
+			#wrap {width:100%; max-width:800px; margin:0 auto; padding:bottom:40px; background-color:white;}
+			header {padding:20px 40px;}
+			section {padding:0px 40px;}
+			header {background-color:lightblue;}
+			/* TYPOGRAPHY */
+			h1{  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; color:purple;} h2 {padding-top:20px;  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; color:purple;}
+			li {margin-bottom:8px;}
+			header h1 {margin-bottom:0;  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;}
+			header h2 {margin-top:0; padding-top:0;font-style:italic;  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; font-color:black;}
+			#contact ul {list-style-type:none; padding:0;}
+			#contact li {display:inline;}
+			#contact span {padding: 0 10px;}
 			
-			#wrap {width:100%; max-width: 800px; margin:0 auto;}
-			header, section {padding: 0 40px;}
-		</style>
+			#software ul, #hobbies ul {display:flex; list-style-type:none; padding:0;}
+			#software li, #hobbies li {margin:0 10px 0; padding: 0px;  background-color: lightblue; border-radius:0px;}
+			
+			
+			
+			#education h3 {margin-bottom:4px;}
+			#education h4 {margin-top:0
+				
+			#affiliations ul {list-style-type:none; padding:0;}
+			#hobbies {margin-bottom: 40px;}
+				
+			// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-de-grund-<uniquifier> {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}	
+</style>
 </head>
 
 <body>
 	<div id="wrap">
 	<header>
 	<div id="name">
-	<h1>Ariel Edgell</h1>
-	<h2>Musician, game developer, animator, movie producer</h2>
+	<table><tr><td><h1>Ariel Edgell</h1></td></tr>
+	<tr><td><h2>Musician, game developer, animator, movie producer</h2></td></tr>
+	</table>
 	</div>
 	<div id="contact">
 		<ul>
-		<li><a href="mailto:makearia31@gmail.com">Email</a></li>
-		<li><a href="tel:301-532-3690">Phone</a></li>
-		<li>traveling around the country, including Maryland</li>
+		<li>&nbsp;<a href="mailto:makearia31@gmail.com">Email</a><span>|</span></li>
+		<li><a href="tel:301-532-3690">Phone</a><span>|</span></li>
+		<li>PO Box 2860, Germantown, MD 20875-2860</li>
 		</ul>
 	</div>
+	</header>
 	<section id="summary">
 	<h2>Summary</h2>
 	<ul>
-	<li>Origin: She once played pitch-matching games with my sister. She got diagnosed with High-functioning autism at the age of 3, with speech delay, but after listening to disney scores and swimming in luxurious waters, she learned how to speak properly. Then, she started being homeschooled, when she was in first grade, after an autistic program in a wonderful elementary school failed to support her. Ever since, she has explored numerous amounts of music including with xylophones, guitars, pianos, voice, saxophones, a music-composing program and oboes. The alto saxophone is one of her favorite instruments, to this day. After a certain amount of experience with the alto saxophone and composing music, her private music teacher reccomended taking Music Theory college courses at the age of 13, which has developed her music skills tree, greatly. And, that's how she became a mostly hardworking, intelligent, gifted, dual-enrolled college student at this glorious college.</li>
-	<li>Having aced all of her music theory courses, performed college &amp; highschool music, &amp; started composing music and thinking about her future in developing breathtaking video games, media, movies, light-hearted, action-packed drama and cartoons, Ariel Edgell, at the age of 16 going on 17, pursues her next major in Computer Sciences and Simulation from developing her favorite number wizard &amp; hidden objects game to creating a fabulous resume to producing a few 3d animated projects and films.</li>
+	<li>Demonstrated creativity and excellence in imagineering, storyboarding, developing, testing and refining immersive computer animations, media, 2D and 3D video games and original musical scores.</li>
+	<li>Performed as soloist and lead alto saxophone in wide variety of genres by invitation with multiple bands, ensembles and orchestras, in both volunteer and paid gigs.</li>
 	</ul>
 	</section>
 	<section id="software">
-	<h2>Software</h2>
+	<h2>Software &amp; Platforms</h2>
 	<ul>
-	<li>Unity</li>
-	<li>MuseScore</li>
+	
 	<li>Adobe Animate</li>
-	<li>Visual Studio</li>
 	<li>Adobe Dreamweaver</li>
-	<li>Visual Studio Code</li>
-	<li>Itch.io</li>
-	<li>Microsoft Word</li>
-	<li>Powerpoint</li>
-	<li>Excel</li>
-	<li>Voice Recorder</li>
-	<li>GIMP</li>
 	<li>Github</li>
-	<li>VMware (unnecessarily)</li>
-	<li>Filezilla (also unnecesarily)</li>
+	<li>Itch.io</li>
+	<li>Unity</li>
+	<li>Visual Studio Code</li>
+	<li>Wordpress <a href="https://gamuboom7.wordpress.com/">Portfolio</a></li>
+	<li>YouTube <a href="https://www.youtube.com/channel/UCxFzVZRct2qvzJkyvYPlgCg">SUBSCRIBE!</a></li>
 	</ul>
 	</section>
-	<section id="experience">
-	<h2>Career Experience</h2>
-	<h3>Professional Musician, game developer, media producer and cartoonist</h3>
-	<h4><time datetime="08-30-18">August 30th, 2018 &ndash; present</time></h4>
-		<li>I was <strong>born</strong> in Washington DC, <strong>raised</strong> in Rockville, MD. I have done and loved <strong>music</strong> &amp; <strong>media</strong>  all my life. <strong>I started taking college classes when I was 13 years at age, after a private music teacher of mine saw how I was gifted at being a musician and recommended taking Music Theory Classes.</li> I have finished all the series, and I have switched to majoring in Computer Science.</strong></p>
-        <li>Right <em>now</em>, I have aced <em>Game Development</em>, <em>C# Coding</em> &amp; <em>Introduction to Animation</em> classes with 16 credits added to my transcript, and I have been proficient at creating immersive music, art, stories, a website &amp; video games.</p></li>
-		<li>I am planning <u>soon</u> to start my own, special media company, play music for audiences <u>all over the world</u>, and act out breath taking roles in media.</li>
+	<section id="languages">
+	<h2>Languages</h2>
+	<ul>
+	<li>C#</li>
+	<li>Java</li>
+	<li>Python</li>	
+	<li>Javascript</li>
+	<li>Html</li>
+	</ul>
 	</section>
 	<section id="education">
 	<h2>Education</h2>
-	<h3>Certificate of Computer Science, Montgomery College, 2024</h3>
+	<h3>Certificate of Computer Simulation and Game Development, Montgomery College, 2024</h3>
 	<p>Associate's, Montgomery College, 2026</p>
 	<p>Bachelor's degree, University of Florida, 2030 (maybe)</p>
 	</section>
@@ -88,9 +132,9 @@
 	<h2>Hobbies</h2>
 	<ul>
             <li>gaming</li> 
-            <li>writing scripts for my animated works &amp; video games</li>
+            <li>scripting </li>
             <li>composing delightful music on a music-composing software</li> 
-            <li>performing music I want to play on my instruments.</li>
+         <li>performing music.</li>
     </ul>
 	</section>
 	<section id="projects">
@@ -104,26 +148,26 @@
 	</ul>
 	<h3>Game Development</h3>
 	<ul>
-	<li> The monsters were having an eerily good time. But one good ghost, B-Boo, heard that some devilish monsters are planning to destroy the mansion and wreck the party. Help B-Boo foil those Wicked Wreckers' plans! (2d game)
-<a href="https://gamuboom.itch.io/wicked-wreckers">Wicked Wreckers</a>, created in <time datetime="10-30-23">October 23, 2023</time> its game design document: <a href="https://docs.google.com/document/d/1nefKfZocb_WPbEsAw-FoKUhTFaBblwlujyXoCuSFpjY/edit">Wicked Wreckers' game design document</a></li>
-		<li>After livestock scatter in a hurricane, the farmers need a top-notch tracker like you to retrieve their animals.
-They will pay you with tomatoes, potatoes, &amp;  green GREEN dollars, but on one condition: find their missing livestock. Do you 
-<ol><li>Accept the mission</li>
-<li>Refuse, your house and farm are broken</li></ol> (2d game)
-<a href="https://gamuboom.itch.io/critter-chaser">Critter Chaser</a>, created in <time datetime="12-02-23">December 2, 2023</time>
-		<li>Revive your valley’s health from a devastating acorn drought. Collect 10 acorns and take them to Master Scampers to restore the valley’s health.<a href="https://gamuboom.itch.io/skyhighsquirrel">Sky-High Squirrel</a>, created in <time datetime="02-24-24">Februrary 24 2024</time>its game design document:<a href="https://docs.google.com/document/d/1IDHqHhm9Vp4PP2zOpDRGWP2QTeyz550aE83-zmkcr58/edit">Sky-High Squirrel Game Design Document</a> (3d game) </li>
-		<li>Can Winfred, the Bunny Wizard, restore the magical candy for the factory and shoot those Gobsters?<a href="https://gamuboom.itch.io/exhilarating-magical-candy-factory">The Exhilarating Candy Factory</a>, created in <time datetime="03-02-24">March 3 2024.</time> its game design document: <a href="https://docs.google.com/document/d/1QmFRbXqDTCSLyEHDOt5JQCMhWkpJvXRiKYwLEAeEPJ0/edit#heading=h.9yvutve6ajsj">The Exhilarating Magical Candy Factory Game Design Document</a>(3d game)</li>
-		<li>For our college based party card game, the objective is to survive with the highest number of cards and try not to be eliminated. An overview created by Ariel Edgell, Aidan Vargas, Justin Banes, Tim Haake <a href="https://youtu.be/mzWlBfxFKuI">College Collision Video Walkthrough</a> and <a href="https://docs.google.com/document/d/1CdEOHxdcbClqKg2I_tZxalazCM1PUl1sWF8FKsRELvY/edit#heading=h.xciyxp8be2cc">Game design document</a> (Board game)</li>
-		<li><p>Murderer ???: The bride has been murdered!</p><p>10 players can assist their new detective friend Detective Daxter in solving the mystery of a murdered bride, Regina.</p> <p>Players must encounter each character in each place to complete <strong>1-2 tasks</strong> in <a href="https://www.youtube.com/watch?v=LaBTdJDiyzw"><b>Detective Daxter (Video)</b></a> We repeat <a href="https://docs.google.com/document/d/1XsFYQ-_Ee2BWJp_D0-XVPQs30tEWYeNgci7JIwkQU34/edit"><b>Detective Daxter (game design document)</b></a></p> <em>created by Ariel, Alexander, Justin and Micheal</em>
+	<li>
+<a href="https://gamuboom.itch.io/wicked-wreckers">Wicked Wreckers</a>, created in <time datetime="10-30-23">October 23, 2023</time> its game design document: <a href="https://docs.google.com/document/d/1nefKfZocb_WPbEsAw-FoKUhTFaBblwlujyXoCuSFpjY/edit">Wicked Wreckers' game design document</a> Help B-Boo foil those Wicked Wreckers' plans of destroying a perfectly haunted party! (2d game)</li>
+<li> 
+<a href="https://gamuboom.itch.io/critter-chaser">Critter Chaser</a>, created in <time datetime="12-02-23">December 2, 2023</time>After livestock scatter in a hurricane, the farmers need a top-notch tracker like you to retrieve their animals.(2d game)</li>
+		<li><a href="https://gamuboom.itch.io/skyhighsquirrel">Sky-High Squirrel</a>, created in <time datetime="02-24-24">Februrary 24 2024</time>its game design document:<a href="https://docs.google.com/document/d/1IDHqHhm9Vp4PP2zOpDRGWP2QTeyz550aE83-zmkcr58/edit">Sky-High Squirrel Game Design Document</a> Revive your valley’s health from a devastating acorn drought. Collect 10 acorns and take them to Master Scampers to restore the valley’s health. (3d game) </li>
+		<li><a href="https://gamuboom.itch.io/exhilarating-magical-candy-factory">The Exhilarating Candy Factory</a>, created in <time datetime="03-02-24"> March 3 2024.</time> its game design document: <a href="https://docs.google.com/document/d/1QmFRbXqDTCSLyEHDOt5JQCMhWkpJvXRiKYwLEAeEPJ0/edit#heading=h.9yvutve6ajsj">The Exhilarating Magical Candy Factory Game Design Document</a> Can Winfred, the Bunny Wizard, restore the magical candy for the factory and shoot those Gobsters? (3d game)</li>
+		<li><a href="https://youtu.be/mzWlBfxFKuI">College Collision Video Walkthrough</a> and <a href="https://docs.google.com/document/d/1CdEOHxdcbClqKg2I_tZxalazCM1PUl1sWF8FKsRELvY/edit#heading=h.xciyxp8be2cc">Game design document</a> (Board game) An overview of college-simulated College Collision, created in <time datetime="04-12-24">April 12 2024</time></li>
+		<li><p>Murderer ???: The bride has been murdered!</p>10 players can assist their new detective friend Detective Daxter in solving the mystery of a murdered bride, Regina in <a href="https://www.youtube.com/watch?v=LaBTdJDiyzw"><b>Detective Daxter (Video)</b></a> We repeat <a href="https://docs.google.com/document/d/1XsFYQ-_Ee2BWJp_D0-XVPQs30tEWYeNgci7JIwkQU34/edit"><b>Detective Daxter (game design document)</b></a> created in <time datetime="05-09-24"> May 9 2024</time></p>
 	(Board game)</li>
+		</li>
 	</ul>
-	<h3>Animations: all of which are the best animations you have seen yet!</h3>
+	<h3>Animations</h3>
 	<ul>
-	<li><a href="https://youtu.be/QWXxWpF3xgY">Ariel's First Animation!</a></li>
-	<li><a href="https://youtu.be/bFyfwGAfBeU">Alien in a Sax Stop Motion Do you think it's quirky or cute?!</a></li>
+	<li><a href="https://youtu.be/QWXxWpF3xgY">Fun With Gum, Stars, Apples And Shapes!</a></li>
+	<li><a href="https://youtu.be/bFyfwGAfBeU">Alien in a Sax Stop Motion</a></li>
 	</ul>
 	</section>
-	</header>
 	</div>
+<!--Playwrite Deutschland Grundschrift
+designed by TypeTogether, Veronika Burian, José Scaglione
+-->
 </body>
 </html>
